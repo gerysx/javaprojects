@@ -103,8 +103,9 @@ public class AList1 {
                     System.out.println("¿Qué nombre desea saber si está en nuestro sistema?");
                     escribir = entrada.next();
                     if (empleados.contains(escribir) == true) {
-                        int indice =empleados.indexOf(escribir);
-                        System.out.println(escribir + " se ecuentra en nuestro sistema de empleados en la posición: " + indice);
+                        int indice = empleados.indexOf(escribir);
+                        System.out.println(
+                                escribir + " se ecuentra en nuestro sistema de empleados en la posición: " + indice);
                     } else {
                         System.out.println(escribir + " no se ecuentra en nuestro sistema de empleados. ");
                     }
