@@ -42,6 +42,6 @@ public class AList2 {
                 break;
         }
 
-
+        entrada.close();
     }
 }
